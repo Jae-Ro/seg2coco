@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seg2coco"
+version = "0.1.1"
+authors = [{name= "Jae Ro", email = "default@default.com"}]
+requires-python = ">= 3.11"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pillow",
+    "notebook"
+]
